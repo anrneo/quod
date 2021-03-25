@@ -76,9 +76,6 @@
                                 </div>
                                 
                               </form> 
-                              <div class="container">
-                                  <p>{{ $word->name }}</p>
-                              </div>
                             @php
                                 $count = strlen($word->name);
                                 $ids = [$id];
